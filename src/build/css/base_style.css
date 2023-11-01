@@ -25,7 +25,7 @@ body {
 
 .btn-2 {
     border-radius: var(--global-btn-radius);
-    background-color: var(--global-brand-1);
+    background-color: var(--global-sec-btn);
     font-size: var(--global-btn-font-size);
     font-family: var(--global-btn-font);
     color: var(--global-textcolor);
