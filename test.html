@@ -4,10 +4,25 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&display=swap');
+          </style>
         <link rel="stylesheet" href="src/build/css/_variables.css"></link>
         <link rel="stylesheet" href="src/build/css/base_style.css"></link>
     </head>
     <body>
-        <button class="btn">WELCOMEEE!!</button>
+        <div id="uwu">
+            <button class="btn">WELCOMEEE!!</button>
+        </div>
+
+        <script>
+            const uwu = document.getElementById('uwu');
+            const btn = document.querySelector('.btn');
+
+            btn.addEventListener('click', () => {
+                btn.classList.toggle('uwu');
+            });
+
+        </script>
     </body>
 </html>
