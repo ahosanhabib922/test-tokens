@@ -22,3 +22,14 @@ body {
     padding-inline: 4rem;
     padding-block: 2rem;
 }
+
+.btn-2 {
+    border-radius: var(--global-btn-radius);
+    background-color: var(--global-brand-1);
+    font-size: var(--global-btn-font-size);
+    font-family: var(--global-btn-font);
+    color: var(--global-textcolor);
+    border: none;
+    padding-inline: 4rem;
+    padding-block: 2rem;
+}
