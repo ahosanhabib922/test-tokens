@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-content: center;
+    height: 100dvh;
+}
+
+.btn {
+    background-color: var(--global-brand-1);
+    padding-inline: 1rem;
+    padding-block: .3rem;
+}

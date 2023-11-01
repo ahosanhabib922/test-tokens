@@ -1,0 +1,11 @@
+{
+  "name": "test-tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ahosanhabib922/test-tokens.git",
+  "author": "Rubel Hossain <rubel.hossain0649@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "style-dictionary": "^3.9.0"
+  }
+}
